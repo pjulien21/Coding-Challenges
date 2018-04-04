@@ -44,6 +44,9 @@ void MineSweeperGrid::ForEachAdjacentCell(int col,
                                                              int cellCol,
                                                              int cellRow)> func)
    {
+   if (col < 0 || row < 0 || col >= mNbCols || row >= mNbRows)
+      return;
+
    const int adjMinCol = std::max(0, col - 1);
    const int adjMaxCol = std::min(mNbCols - 1, col + 1);
    const int adjMinRow = std::max(0, row - 1);
@@ -82,7 +85,7 @@ void MineSweeperGrid::PlaceMinesRandomly()
    if (mNbMines <= 0 || nbCells <= 0)
       return;
 
-                             // Use Fisher–Yates shuffle to randomly place mines
+                             // Use Fisherâ€“Yates shuffle to randomly place mines
    int curId = 0;
    std::vector<int> RemainingVacantCellsIdx(nbCells);
    for (int& elem : RemainingVacantCellsIdx)

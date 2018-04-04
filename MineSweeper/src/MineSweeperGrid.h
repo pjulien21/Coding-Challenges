@@ -48,8 +48,8 @@ class MineSweeperGrid
       void ForEachAdjacentCell(int col,
                                int row,
                                std::function<void(MineSweeperCell& cell,
-                                                  int cellCol,
-                                                  int cellRow)> func);
+                                                  int              cellCol,
+                                                  int              cellRow)> func);
 
       void PlaceMinesRandomly();
 

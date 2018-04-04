@@ -44,6 +44,21 @@ ofApp::ofApp()
    }
 
 //--------------------------------------------------------------
+ofApp::~ofApp()
+   {
+   glDeleteTextures(1, &mGLTextureDigit1);
+   glDeleteTextures(1, &mGLTextureDigit2);
+   glDeleteTextures(1, &mGLTextureDigit3);
+   glDeleteTextures(1, &mGLTextureDigit4);
+   glDeleteTextures(1, &mGLTextureDigit5);
+   glDeleteTextures(1, &mGLTextureDigit6);
+   glDeleteTextures(1, &mGLTextureDigit7);
+   glDeleteTextures(1, &mGLTextureDigit8);
+   glDeleteTextures(1, &mGLTextureFlag);
+   glDeleteTextures(1, &mGLTextureMine);
+   }
+
+//--------------------------------------------------------------
 void ofApp::setup() {
    ofSetWindowTitle(Constants::WINDOW_TITLE);
    ofSetFrameRate(Constants::NB_FRAMES_PER_SECOND);

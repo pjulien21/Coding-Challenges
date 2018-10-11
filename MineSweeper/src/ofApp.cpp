@@ -16,16 +16,16 @@ namespace Constants
    constexpr int GRID_HEIGHT = 16;
    constexpr int MINES_COUNT = 40;
 
-   const char* IMG_DIGIT1_PATH = "C:\\Users\\Phil\\Desktop\\Solutions\\VisualStudio\\Github\\MineSweeper\\img\\1.png";
-   const char* IMG_DIGIT2_PATH = "C:\\Users\\Phil\\Desktop\\Solutions\\VisualStudio\\Github\\MineSweeper\\img\\2.png";
-   const char* IMG_DIGIT3_PATH = "C:\\Users\\Phil\\Desktop\\Solutions\\VisualStudio\\Github\\MineSweeper\\img\\3.png";
-   const char* IMG_DIGIT4_PATH = "C:\\Users\\Phil\\Desktop\\Solutions\\VisualStudio\\Github\\MineSweeper\\img\\4.png";
-   const char* IMG_DIGIT5_PATH = "C:\\Users\\Phil\\Desktop\\Solutions\\VisualStudio\\Github\\MineSweeper\\img\\5.png";
-   const char* IMG_DIGIT6_PATH = "C:\\Users\\Phil\\Desktop\\Solutions\\VisualStudio\\Github\\MineSweeper\\img\\6.png";
-   const char* IMG_DIGIT7_PATH = "C:\\Users\\Phil\\Desktop\\Solutions\\VisualStudio\\Github\\MineSweeper\\img\\7.png";
-   const char* IMG_DIGIT8_PATH = "C:\\Users\\Phil\\Desktop\\Solutions\\VisualStudio\\Github\\MineSweeper\\img\\8.png";
-   const char* IMG_FLAG_PATH = "C:\\Users\\Phil\\Desktop\\Solutions\\VisualStudio\\Github\\MineSweeper\\img\\flag.png";
-   const char* IMG_MINE_PATH = "C:\\Users\\Phil\\Desktop\\Solutions\\VisualStudio\\Github\\MineSweeper\\img\\mine.png";
+   const char* IMG_DIGIT1_PATH = "img\\1.png";
+   const char* IMG_DIGIT2_PATH = "img\\2.png";
+   const char* IMG_DIGIT3_PATH = "img\\3.png";
+   const char* IMG_DIGIT4_PATH = "img\\4.png";
+   const char* IMG_DIGIT5_PATH = "img\\5.png";
+   const char* IMG_DIGIT6_PATH = "img\\6.png";
+   const char* IMG_DIGIT7_PATH = "img\\7.png";
+   const char* IMG_DIGIT8_PATH = "img\\8.png";
+   const char* IMG_FLAG_PATH = "img\\flag.png";
+   const char* IMG_MINE_PATH = "img\\mine.png";
    };
 
 //--------------------------------------------------------------

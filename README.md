@@ -1,4 +1,4 @@
-# Coding-Challenge
+# Coding-Challenges
 
 A repository for C++ coding challenges.
 

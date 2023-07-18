@@ -1,5 +1,8 @@
+# GameOfLife ![language](https://img.shields.io/badge/language-C++-orange) ![license](https://img.shields.io/badge/license-MIT-brightgreen)
 GameOfLife in C++.
-Graphics using openFrameworks : http://openframeworks.cc/
+
+Graphics using openFrameworks:
+http://openframeworks.cc/
 
 Starting with an inverted U shape, a clown appears at iteration 110.
 

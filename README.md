@@ -1,4 +1,4 @@
-# Coding-Challenges
+# Coding-Challenges ![language](https://img.shields.io/badge/language-C++-orange) ![license](https://img.shields.io/badge/license-MIT-brightgreen)
 
 A repository for C++ coding challenges.
 
